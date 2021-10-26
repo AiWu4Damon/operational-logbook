@@ -1,4 +1,4 @@
-package com.damon.logbook;
+package com.damon.logbook.annotation;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;

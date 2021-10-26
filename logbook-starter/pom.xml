@@ -28,16 +28,6 @@
             <artifactId>logbook-aop</artifactId>
             <version>${version}</version>
         </dependency>
-        <dependency>
-            <groupId>com.damon.logbook</groupId>
-            <artifactId>logbook-append</artifactId>
-            <version>${version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.damon.logbook</groupId>
-            <artifactId>logbook-parser</artifactId>
-            <version>${version}</version>
-        </dependency>
     </dependencies>
 
 </project>

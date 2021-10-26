@@ -19,7 +19,7 @@
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <slf4j.version>1.7.25</slf4j.version>
+        <slf4j.version>2.0.0-alpha1</slf4j.version>
         <transmittable.version>2.13.0-SNAPSHOT</transmittable.version>
         <springframework.version>4.3.10.RELEASE</springframework.version>
     </properties>
@@ -40,6 +40,11 @@
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-aspects</artifactId>
+                <version>${springframework.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context</artifactId>
                 <version>${springframework.version}</version>
             </dependency>
         </dependencies>
